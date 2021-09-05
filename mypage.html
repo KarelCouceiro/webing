@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My File</title>
+</head>
+<body>
+    <h1>My First Script</h1>
+
+    <script>
+
+        // the variable is bellow
+        var hello = "Good Morning";
+        console.log(hello);
+
+        /* I can put a longer comment about
+        and it can go multiple lines*/
+
+    </script>
+
+    <script>
+
+/*         var red = true;
+        var blue = false;
+        var num = 5;
+        var othernum = 7;
+
+        if(num < othernum){
+            console.log("This statement is true");
+
+        } else{
+            console.log("This statement is false");
+
+        } */
+        var colors = ['red', 'blue', 'yellow'];
+        colors.push(['orange','green']);
+
+        for(var i = 0;i<colors.length; i++){
+
+            console.log(colors[i]);
+
+
+        }
+
+        for(var each of colors){
+
+            console.log(each)
+        }
+
+        var i = 0;
+        var text = "";
+        var text1 = "";
+
+        while (i < 10){
+
+            text1 += "The i has gone up to " + i * i + "\n";
+            i++;
+
+        }
+        
+        var myString = "I am really hungry"
+
+        var start = myString.search("really")
+
+        var i = 0;
+
+        for(var f of colors){
+
+            if(i%2==0){
+
+                console.log(`${myString} ${f.toUpperCase()}`);
+
+
+            }else{
+
+                console.log(`${myString} ${f}`);
+            } 
+
+            i++
+
+        }
+
+    var firstName = 'Karel';
+    var lastName = 'Couceiro';
+    var adjective = 'Controller';
+    
+    console.log(`${firstName} ${lastName} ${adjective}`);
+
+    var name = prompt("please enter a number?", 0);
+
+    console.log(name-0);
+
+    var check = name-0;
+
+    if(Number.isNaN(check) == false){
+
+
+
+    if (name<10){
+        console.log("You entered a number smaller than 10");
+
+        var i = 0;
+        while(i<10){
+
+            if(i==name){console.log(`Here is ${i} <-- This is your number`)}else{console.log(`Here is ${i}`)};
+            i++
+        }
+
+
+
+
+    }else{
+        console.log("You entered a big number");
+
+
+
+    
+    }}else {console.log("ERROR")};
+
+    function dStuff(){
+
+
+
+
+    };
+
+    console.log(Math.random())
+
+
+    function randon(max,min){
+
+        var n = max - min + 1;
+        var num = Math.round(Math.random()*n + min)
+        return(num);
+
+
+
+
+    }
+
+    console.log(randon(52,1));
+
+
+
+
+    
+
+
+
+
+
+
+        
+
+
+
+
+
+
+
+        
+
+
+
+    </script>
+    
+</body>
+</html>

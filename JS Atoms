@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+    <meta charset="utf-8" />
+    <title> Atoms Game </title>
+  </head>
+
+  <body>
+
+    <table> </table>
+    <style>
+    td{
+    border: 1px solid black;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    color: blue;
+
+
+
+    }
+
+
+
+
+
+
+
+  </body>
+</html>
